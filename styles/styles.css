@@ -14,11 +14,11 @@
   font-size: 42px;
   font-weight: 800;
   color: #272727;
-  margin-top: -30px;
+  margin-top: 0px;
   padding: 32px;
 }
 .headdesc {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   color: #27272799;
   padding-bottom: 32px;
@@ -38,7 +38,7 @@
 .headimg {
   width: 480px;
   height: 580px;
-  padding: 50px;
+  padding: 50px 0px 0px 50px;
 }
 
 
@@ -46,9 +46,37 @@
 
 
 
+/* deals section */
 
+.deals{
+    background-image: url("./Flower-Asset/Rectangle\ 9.png");
+    padding: 180px;
+    margin: 100px 200px 0px 200px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
 
-
+.dealstitle{
+    font-size: 40px;
+font-weight: 800; 
+margin-top: -100px;
+color: #272727;
+}
+.dealsdesc{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 15px;
+font-weight: 400; 
+padding: 16px 0px 32px ;
+}
+.mail-inp{
+    width: 385px;
+height: 44px;
+padding: 10px;
+border-radius: 8px;
+border: none;
+text-align: left;
+}
 
 /*footer section  */
 
