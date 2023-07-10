@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/* header section */
+.head {
+  background-color: #e554731a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+.headtext {
+}
+.headtitle {
+  font-size: 42px;
+  font-weight: 800;
+  color: #272727;
+  margin-top: -30px;
+  padding: 32px;
+}
+.headdesc {
+  font-size: 12px;
+  font-weight: 400;
+  color: #27272799;
+  padding-bottom: 32px;
+  margin-left: 32px;
+}
+.primarybtn {
+  background-color: #e55473;
+  color: white;
+  cursor: pointer;
+  padding: 18px 38px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 0px;
+  margin-left: 32px;
+}
+.headimg {
+  width: 480px;
+  height: 580px;
+  padding: 50px;
+}
+
+
+
+/*  */
