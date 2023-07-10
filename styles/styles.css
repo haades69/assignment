@@ -10,8 +10,6 @@
   justify-content: center;
   gap: 90px;
 }
-.headtext {
-}
 .headtitle {
   font-size: 42px;
   font-weight: 800;
@@ -44,5 +42,39 @@
 }
 
 
+/* main section */
 
-/*  */
+
+
+
+
+
+
+/*footer section  */
+
+.foot{
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.foottitle{
+    font-size: 48px;
+font-weight: 800; 
+padding: 24px;
+}
+span{
+    color: #E55473;
+}
+.footdesc1{
+    font-size: 18px;
+font-weight: 400; 
+padding-bottom: 30px;
+}
+.footdesc2{
+    font-size: 16px;
+font-weight: 400; 
+color: rgba(255, 255, 255, 0.40);
+padding-top: 30px;
+}
