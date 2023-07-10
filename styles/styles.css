@@ -46,6 +46,38 @@
 
 
 
+/* instagram section */
+
+.insta{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.instatitle{
+    color: #272727;
+font-size: 40px;
+font-weight: 800; 
+}
+
+.instadesc{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400; 
+padding: 25px;
+}
+
+.instaimgs{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.instaimg{
+    width: 225px;
+height: 300px; 
+}
+
 /* deals section */
 
 .deals{
@@ -60,15 +92,16 @@
 .dealstitle{
     font-size: 40px;
 font-weight: 800; 
-margin-top: -100px;
+margin-top: -110px;
 color: #272727;
 }
 .dealsdesc{
     color: rgba(39, 39, 39, 0.60);
 font-size: 15px;
 font-weight: 400; 
-padding: 16px 0px 32px ;
+padding: 4px 0px 24px ;
 }
+
 .mail-inp{
     width: 385px;
 height: 44px;
