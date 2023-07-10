@@ -41,101 +41,211 @@
   padding: 50px 0px 0px 50px;
 }
 
-
 /* main section */
 
+/* featured section */
 
+.featured {
+  text-align: center;
+  padding: 100px 0px 0px 0px;
+}
+.featuredtitle {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.featuredesc {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 30px;
+}
+.featuredimgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 115px;
+  margin-top: 60px;
+  padding: 40px;
+}
+
+.featuredimg {
+  width: 220px;
+  height: 290px;
+  position:relative;
+}
+.rec1{
+    background-color:  #a7216226;
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    top:834px;
+    left: 210px;
+    border-radius: 180px 180px 0px 0px;
+}
+.rec2{
+    background-color: #0597A026;
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    top:834px;
+    left: 540px;
+    border-radius: 180px 180px 0px 0px;
+}
+.rec3{
+    background-color:#477D1126;
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    top:834px;
+    left: 872px;
+    border-radius: 180px 180px 0px 0px;
+}
+
+
+
+
+/* random imgs */
+.randomimgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2727270d;
+  padding: 100px;
+  margin: 140px 200px;
+  gap: 60px;
+}
+.random {
+  text-align: center;
+  margin-top: -30px;
+}
+.randodesc {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+/* hot deals section */
+
+.hot {
+  display: flex;
+  background-color: #e554730d;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  padding: 100px 0px;
+  margin: 30px 0px;
+}
+.hottext {
+  text-align: center;
+}
+.hottitle {
+  color: #272727;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.hotdesc {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 24px;
+}
+.hotimg {
+  width: 200px;
+  height: 300px;
+}
 
 /* instagram section */
 
-.insta{
-    text-align: center;
-    padding-top: 50px;
+.insta {
+  text-align: center;
+  padding-top: 50px;
 }
 
-.instatitle{
-    color: #272727;
-font-size: 40px;
-font-weight: 800; 
+.instatitle {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
 }
 
-.instadesc{
-    color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400; 
-padding: 25px;
+.instadesc {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 25px;
 }
 
-.instaimgs{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    
+.instaimgs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.instaimg{
-    width: 225px;
-height: 300px; 
+.instaimg {
+  width: 225px;
+  height: 300px;
 }
 
 /* deals section */
 
-.deals{
-    background-image: url("./Flower-Asset/Rectangle\ 9.png");
-    padding: 180px;
-    margin: 100px 200px 0px 200px;
-    background-size:contain;
-    background-repeat: no-repeat;
-    text-align: center;
+.deals {
+  background-image: url("./Flower-Asset/Rectangle\ 9.png");
+  padding: 180px;
+  margin: 100px 200px 0px 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
-.dealstitle{
-    font-size: 40px;
-font-weight: 800; 
-margin-top: -110px;
-color: #272727;
+.dealstitle {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: -110px;
+  color: #272727;
 }
-.dealsdesc{
-    color: rgba(39, 39, 39, 0.60);
-font-size: 15px;
-font-weight: 400; 
-padding: 4px 0px 24px ;
+.dealsdesc {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 4px 0px 24px;
 }
 
-.mail-inp{
-    width: 385px;
-height: 44px;
-padding: 10px;
-border-radius: 8px;
-border: none;
-text-align: left;
+.mail-inp {
+  width: 385px;
+  height: 44px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  text-align: left;
 }
 
 /*footer section  */
 
-.foot{
-    background-color: #111010;
-    color: white;
-    text-align: center;
-    padding: 100px;
+.foot {
+  background-color: #111010;
+  color: white;
+  text-align: center;
+  padding: 100px;
 }
 
-.foottitle{
-    font-size: 48px;
-font-weight: 800; 
-padding: 24px;
+.foottitle {
+  font-size: 48px;
+  font-weight: 800;
+  padding: 24px;
 }
-span{
-    color: #E55473;
+span {
+  color: #e55473;
 }
-.footdesc1{
-    font-size: 18px;
-font-weight: 400; 
-padding-bottom: 30px;
+.footdesc1 {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 30px;
 }
-.footdesc2{
-    font-size: 16px;
-font-weight: 400; 
-color: rgba(255, 255, 255, 0.40);
-padding-top: 30px;
+.footdesc2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+  padding-top: 30px;
 }
