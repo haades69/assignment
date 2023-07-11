@@ -18,7 +18,7 @@
   padding: 32px;
 }
 .headdesc {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
   color: #27272799;
   padding-bottom: 32px;
@@ -102,8 +102,32 @@
     border-radius: 180px 180px 0px 0px;
 }
 
-
-
+/* order section */
+.order{
+  background-image: url('./Flower-Asset/basket-1846135.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  width: 1366px;
+  text-align: right;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.ordertext{
+  padding-right: 150px;
+}
+.ordertitle{
+  color: #272727;
+  font-size: 50px;
+  font-weight: 800;
+}
+.orderdesc{
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+ padding: 10px 0px 50px 0px;
+}
 
 /* random imgs */
 .randomimgs {
@@ -172,7 +196,7 @@
 
 .instadesc {
   color: rgba(39, 39, 39, 0.6);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   padding: 25px;
 }
